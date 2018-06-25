@@ -25,7 +25,7 @@ namespace ServiceLayer.Controllers
 
         // GET: api/Person/5
 		public WholeClass GetPerson_T(int id)
-        {
+        { //Code refactoring
 			 Person_T person= db.Person_T.Find(id);
 			Address_T address = db.Address_T.Find(person.Address_IDNO);
 			var key = address.Address_IDNO;
