@@ -5,9 +5,11 @@ using System.Web;
 
 namespace MVC.Models
 {
-//Code is added in github
-//Code added in vs
-		public class Person
+	//Code is added in github
+	//Code added in vs
+	//Feacture 1
+
+	public class Person
 		{
 			public int Person_IDNO { get; set; }
 			public int Address_IDNO { get; set; }
