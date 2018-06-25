@@ -46,7 +46,6 @@ namespace MVC.Controllers
 			HttpResponseMessage httpClientresponse = HttpClientGlobal.httpClient.GetAsync("Person/" + id).Result;
 			personlist = httpClientresponse.Content.ReadAsAsync<WholeClass>().Result;
 			return View(personlist);
-
 		}
 		[HttpPost]
 		public ActionResult Edit(WholeClass wholeClass)
@@ -56,12 +55,8 @@ namespace MVC.Controllers
 		}
 		public ActionResult Delete(int id)
 		{
-			
 			HttpResponseMessage httpClientresponse = HttpClientGlobal.httpClient.DeleteAsync("Person/" + id).Result;
-			
 			return RedirectToAction("InduvidualSummary");
-
-
 		}
 	}
 }
