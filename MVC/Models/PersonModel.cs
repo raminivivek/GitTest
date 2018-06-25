@@ -17,7 +17,8 @@ namespace MVC.Models
 			public virtual Address_T Address_T { get; set; }
 		}
 
-
+class class Test{
+}
 		public class Address_T		{
 			public int Address_IDNO { get; set; }
 			public Nullable<System.DateTime> CreatedDate { get; set; }
