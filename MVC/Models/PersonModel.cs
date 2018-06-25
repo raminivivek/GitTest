@@ -9,6 +9,12 @@ namespace MVC.Models
 //Code added in vs
 //Feature3
 		public class Person
+	//Code is added in github
+	//Code added in vs
+	//Feacture 1
+	//Feature1 imp
+
+	public class Person
 		{
 			public int Person_IDNO { get; set; }
 			public int Address_IDNO { get; set; }
