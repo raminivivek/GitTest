@@ -13,10 +13,12 @@ namespace MVC.Models
 			public string LastName { get; set; }
 			public Nullable<System.DateTime> CreatedDate { get; set; }
 			public Nullable<System.DateTime> UpdatedDate { get; set; }
-
+		
 			public virtual Address_T Address_T { get; set; }
 		}
 
+	public class Test{
+	}
 		public class Address_T		{
 			public int Address_IDNO { get; set; }
 			public Nullable<System.DateTime> CreatedDate { get; set; }
