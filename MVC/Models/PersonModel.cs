@@ -6,6 +6,7 @@ using System.Web;
 namespace MVC.Models
 {
 //Code is added in github
+//Code added in vs
 		public class Person
 		{
 			public int Person_IDNO { get; set; }
