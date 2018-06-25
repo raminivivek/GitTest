@@ -17,8 +17,7 @@ namespace MVC.Models
 			public virtual Address_T Address_T { get; set; }
 		}
 
-	public class Test{
-	}
+
 		public class Address_T		{
 			public int Address_IDNO { get; set; }
 			public Nullable<System.DateTime> CreatedDate { get; set; }
@@ -28,7 +27,6 @@ namespace MVC.Models
 			public string City { get; set; }
 			public string State { get; set; }
 			public string ZipCode { get; set; }
-
 			[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 			public virtual ICollection<Person> Person { get; set; }
 			[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
@@ -42,7 +40,6 @@ namespace MVC.Models
 			public Nullable<System.DateTime> CreatedDate { get; set; }
 			public Nullable<int> Address_IDNO { get; set; }
 			public Nullable<System.DateTime> UpdatedDate { get; set; }
-
 			public virtual Address_T Address_T { get; set; }
 		}
 	public class WholeClass
@@ -53,7 +50,6 @@ namespace MVC.Models
 		public string LastName { get; set; }
 		public Nullable<System.DateTime> CreatedDate { get; set; }
 		public Nullable<System.DateTime> UpdatedDate { get; set; }
-
 		public string AddressLine1 { get; set; }
 		public string AddressLine2 { get; set; }
 		public string City { get; set; }
