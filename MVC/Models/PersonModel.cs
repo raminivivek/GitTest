@@ -7,6 +7,7 @@ namespace MVC.Models
 {
 //Code is added in github
 //Code added in vs
+//Feature3
 		public class Person
 		{
 			public int Person_IDNO { get; set; }
