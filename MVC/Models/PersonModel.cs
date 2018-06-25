@@ -5,6 +5,10 @@ using System.Web;
 
 namespace MVC.Models
 {
+//Code is added in github
+//Code added in vs
+//Feature3
+		public class Person
 	//Code is added in github
 	//Code added in vs
 	//Feacture 1
